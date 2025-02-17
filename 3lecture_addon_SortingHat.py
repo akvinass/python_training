@@ -8,33 +8,14 @@ q_list = []
 
 if q_1 == 'y':
     q_list.append(1)
-else:
-    q_list.append(1)
-    del q_list[1]
-
 if q_2 == 'y':
     q_list.append(1)
-else:
-    q_list.append(1)
-    del q_list[1]
-
 if q_3 == 'y':
     q_list.append(1)
-else:
-    q_list.append(1)
-    del q_list[1]
-
 if q_4 == 'y':
     q_list.append(1)
-else:
-    q_list.append(1)
-    del q_list[1]
-
 if q_5 == 'y':
     q_list.append(1)
-else:
-    q_list.append(1)
-    del q_list[1]
 
 if len(q_list) == 1:
     print('Congratulations. Your house is Hufflepuff!')
@@ -46,3 +27,5 @@ elif len(q_list) == 4:
     print('Congratulations. Your house is Gryffindor!')
 elif len(q_list) == 5:
     print('Congratulations. Your house is Slytherin!')
+else:
+    print("At least one 'yes' answer is needed")
