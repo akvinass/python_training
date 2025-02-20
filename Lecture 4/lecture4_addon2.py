@@ -10,3 +10,4 @@ for b in range(0, len(my_list) - 1):
     x = sum(my_list[b:b+2])
     if x == 7:
         print('Found a pair that sums to 7!')
+        break
