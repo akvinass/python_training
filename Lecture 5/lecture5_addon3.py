@@ -10,4 +10,5 @@ for i in user_input:
         output.append(letters[x])
     else:
         output.append(i)
+
 print('Encoded value:', ''.join(output))
