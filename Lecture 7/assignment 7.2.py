@@ -2,8 +2,7 @@ def correct_sentence(text):
     text = text[:1].upper() + text[1:]
     if text.endswith('.'):
         return text
-    else:
-        return text + '.'
+    return text + '.'
 
 assert correct_sentence("greetings, friends") == "Greetings, friends.", 'Test1'
 assert correct_sentence("hello") == "Hello.", 'Test2'
