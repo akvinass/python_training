@@ -1,0 +1,2 @@
+class StudentLimitError (Exception):
+    pass
