@@ -33,7 +33,6 @@ class Rectangle:
     def __str__(self):
         return f"Rectangle({self.width}, {self.height})"
 
-
 r1 = Rectangle(2, 4)
 r2 = Rectangle(3, 6)
 assert r1.get_square() == 8, 'Test1'
